@@ -1,51 +1,86 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+# E-Geography
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+The geography has played important role in the evolution of people, their ideas, places, and environment. To develop a mental map of our community, province or territory, country and the world so that you can understand the “where” of places and events, we need to have enough knowledge. A student who needs some general info on the specific country, who would prefer an accurate and easily-found source, can confidently use our project to satisfy his waitings.
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
+As often noted, most students have a poor knowledge of geography. This stands in stark contrast to the abundance of rich geographic resources. There is more than enough geographic information available in readily useful, accessible, digital forms; the challenge is to get people to use it. To meet that challenge, the project has to reduce barriers to use by making the professional standards and applications more transparent to teachers and students. Further, it has to provide simple and easy access to content, in a structure that facilitates its adaptation in the schools. The goal of the project is for teachers to have the knowledge, curriculum, and tools to teach the state’s new graduation standards for geography, using online digital resources and applications. This will help students learn geography and apply geographic principles in the study of other disciplines.
 
-## Learning Laravel
+This project will enhance the value of digital resources both at the society and across the Web by integrating more closely the application of technologies with the needs of students and teachers in grades 4-12. There is no shortage of content. An enormous quantity of digital resources are available online. The outcomes of the project will be an immediately valuable resource that allows the primary audience, teachers, to address the standards. As well, the project will provide a tool that can reach other audiences, as the concept can be extended to cover other geographic content and other audiences; the overall result is a model for application by other institutions across the country. 
 
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
+To build the project we used modern programming languages like PHP and JavaScript. The project is powered by famous PHP framework Laravel and JavaScript’s progressive framework Vue. The project provides categories, such as lessons category, tests category, game category. This can be perfect for any student to any adult man or woman. Each category is special, for example, flag game and tests category is perfect for those want to test his/her knowledge about geography, Map category is useful for teachers and students to quickly get information about any country. There is an additional library where anyone can download ebooks. And to control the site, we build an admin dashboard. In admin dashboard, you can create and edit lessons, upload books, make tests. 
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+### Few pages: 
+This is how home page looks. Nice and simple for any type of people. 
+![alt text](http://doctna.esy.es/uploads/Untitled.png "Homepage")
 
-## Laravel Sponsors
+Our project can be perfect for finding quick information for any country.
+![alt text](http://doctna.esy.es/uploads/countries.png "Countries page")
 
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](http://patreon.com/taylorotwell):
+This is the map category. You can click on any country and get information
+![alt text](http://doctna.esy.es/uploads/map.png "Maps Page")
 
-- **[Vehikl](http://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Styde](https://styde.net)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
+Flag game category, simple fun and exciting.
+![alt text](http://doctna.esy.es/uploads/flagGame.png "Awesome Flag Game page")
 
-## Contributing
+Admin dashboard, a place where you can control site. You can create tests, lessons, upload books and add information about countries.
+![alt text](http://doctna.esy.es/uploads/adminDashboard.png "Admin Dashboard Page")
+![alt text](http://doctna.esy.es/uploads/adminDashboardForms.png "Admin Dashboard Page")
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+# Installation
+As a first step, we need to have installed MySQL and PHP in our machine.
 
-## Security Vulnerabilities
+## For mac
+Install Homebrew
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+Then open new tab and paste this commands
+```bash
+$ brew install php
+$ brew install mysql
+```
+## Windows
+For the windows, it is highly recommended to use GUI applications that install PHP and Mysql behind the scenes.[Mamp](https://www.mamp.info/en/mamp-pro/) or [Xampp](https://www.apachefriends.org/index.html) is a good choice. Just download and install.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+## Linux
+For the Linux users, we can install php and mysql by [Linuxbrew](http://linuxbrew.sh/), which is  is a fork of [Homebrew](http://brew.sh/), the macOS package manager, for Linux.
+Install Linuxbrew
+The installation script installs Linuxbrew to  `/home/linuxbrew/.linuxbrew`  if possible and in your home directory at  `~/.linuxbrew`  otherwise.
 
-## License
+Paste at a Terminal prompt:
+```bash
+$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+```
+Follow the  _Next steps_  instructions to add Linuxbrew to your  `PATH`  and to your bash shell profile script, either  `~/.profile`  on Debian/Ubuntu or  `~/.bash_profile`  on CentOS/Fedora/RedHat.
+```bash
+test -d ~/.linuxbrew && PATH="$HOME/.linuxbrew/bin:$HOME/.linuxbrew/sbin:$PATH"
+test -d /home/linuxbrew/.linuxbrew && PATH="/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:$PATH"
+test -r ~/.bash_profile && echo "export PATH='$(brew --prefix)/bin:$(brew --prefix)/sbin'":'"$PATH"' >>~/.bash_profile
+echo "export PATH='$(brew --prefix)/bin:$(brew --prefix)/sbin'":'"$PATH"' >>~/.profile
+```
+So now we installed Linuxbrew, to install Mysql and PHP paste commands below in terminal
+```bash
+$ brew install php 
+$ brew install mysql
+```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+## Setting
+After we installed Mysql and PHP, we need to import our mysql tables
+To do this we have  create database e_geographyl and import e_geography.sql to our e_geography database.  See below for install instructions.
+
+### Open Mysql command line and paste:
+```sql
+create database e_geography;
+use e_geography;
+source e_geography.sql;
+```
+### Start Application
+To start application, all we need to do is open terminal in current folder and run below command, and go to http://127.0.0.1:8000.
+```bash
+php artisan serve
+```
+
+### Please, don't hesitate to open an issue.
+Contact mail: nurmuhammet.ali@mail.com
