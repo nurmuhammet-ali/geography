@@ -81,6 +81,11 @@ To start application, all we need to do is open terminal in current folder and r
 ```bash
 php artisan serve
 ```
+For windows users, it just enough to double click storage.cmd and geography.cmd, and you are ready to go.
 
 ### Please, don't hesitate to open an issue.
 Contact mail: nurmuhammet.ali@mail.com
+
+## License
+
+The E-Geography is open-sourced software licensed under the  [MIT license](https://opensource.org/licenses/MIT).
