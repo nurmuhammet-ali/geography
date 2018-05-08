@@ -1,0 +1,615 @@
+/* Globals */
+
+body {
+    background-color: #f5f5f5;
+}
+
+i.right {
+    margin-left: 0px;
+}
+/* end Globals */
+
+
+/* style */
+
+nav {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+nav .button-collapse {
+    margin-left: 0px;
+}
+
+.side-nav .collapsible-body li a, .side-nav.fixed .collapsible-body li a {
+    font-weight: 400;
+    padding: 0 37.5px 0 45px;
+}
+
+.side-nav .collapsible-header, .side-nav.fixed .collapsible-header {
+    padding:0px 30px;
+}
+
+a.brand-logo {
+    width: 153px;
+    height: 34px;
+    
+    margin-top: 13px;
+
+    display: block;
+
+    overflow: hidden;
+
+    background-image: url('/img/logo.png');
+
+    text-indent: 9999px;
+}
+
+.dropdown-content {
+    width: 169px !important;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+    font-size: 14px;
+}
+
+section.carousel {
+    margin-top: 30px;
+}
+
+section.carousel .carousel, 
+section.funny .carousel {
+    border-radius: 5px;
+}
+
+section.carousel .carousel .carousel-item {
+    overflow: hidden;
+}
+
+section.carousel .carousel .carousel-item:nth-child(1) {
+    background: url('/img/cards-2.jpg') no-repeat;
+    background-size: cover;
+}
+
+section.carousel .carousel .carousel-item:nth-child(2) {
+    background: url('/img/cards-4.jpg') no-repeat;
+    background-size: cover;
+}
+
+section.carousel .carousel .carousel-item:nth-child(3) {
+    background: url('/img/cards-3.jpg') no-repeat;
+    background-size: cover;
+}
+
+section.carousel .carousel .carousel-item .carousel-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    background-color: rgba(0,0,0,0.6);
+    
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+section.carousel .carousel .carousel-item .carousel-bg h2 {
+    font-size: 5em;
+    font-weight: normal;
+
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+}
+
+section.cards {
+    margin-top: 30px;
+}
+
+section.cards .card {
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    overflow: hidden;
+}
+
+section.cards .card:hover img{
+    transform: scale(1.25,1.25);
+}
+
+section.cards .card .card-image::after {
+    content: '';
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+section.cards .card .card-image .card-title {
+    top: 40%;
+    left: 0;
+    right: 0;
+
+    text-align: center;
+
+    bottom: initial;
+
+    padding: 0px;
+
+    z-index: 1;
+}
+
+.card .card-image img {
+    object-fit: cover;
+
+    height: 200px;
+
+    transition: all 1s ease;
+}
+
+section.about-us {
+    margin-top: 30px;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    background-color: #e0e0e0; 
+}
+
+section.about-us h2 {
+    text-align: center;
+
+    font-size: 28px;
+
+    margin: 0px 0px 15px 0px;
+
+    color: #757575;
+}
+
+section.about-us .user {
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+section.about-us .user img {
+    width: 200px;
+    height: 200px;
+}
+
+section.about-us .user h5,
+section.about-us .user p {
+    color: #757575;
+}
+
+section.about-us .user p {
+    width: 100%;
+    max-width: 300px;
+
+    margin: auto;
+}
+
+section.footer {
+    width: 100%;
+
+    padding-top: 200px;
+
+    text-align: center;
+}
+
+section.footer img {
+    width: 100%;
+}
+
+section.game {
+    margin-top: 25px;
+}
+
+section.game .flag-game {
+    width: 100%;
+    max-width: 550px;
+
+    margin: auto;
+
+    margin-bottom: 25px;
+}
+
+section.game .content {
+    text-align: center;
+}
+
+section.game .flag,
+section.game .capital {
+    height: 350px;
+
+    border-radius: 5px;
+
+    text-align: center;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+section.game .capital span {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    color: white;
+
+    font-size: 4em;
+
+    z-index: 1;
+}
+
+section.game .capital::after {
+    content: '';
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+section.game .flag img,
+section.game .capital img{
+    width: 100%;
+    max-width: 550px;
+    height: 350px;
+
+    object-fit: cover;
+
+    border-radius: 5px;
+
+    box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.1);
+}
+
+section.game .buttons {
+    width: 100%;
+
+    margin-top: 30px;
+}
+
+section.game .buttons .btn-flag {
+    width: calc(50% - 12px);
+    height: 64px;
+    line-height: 64px;
+
+    font-size: 16px;
+
+    display: inline-block;
+
+    margin-bottom: 12px;
+    margin-right: 12px;
+
+    box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.1);
+
+    background: #8B8B8B;
+    color: white;
+
+    border: none;
+}
+
+section.game .buttons .btn-flag:hover {
+    background: #717171;
+}
+
+section.game .buttons .btn-flag.wrong {
+    background: #ef5350;
+}
+
+section.game .buttons .btn-flag.true {
+    background: #62F56C;
+}
+
+section.lessons .content{
+    text-align: center;
+}
+
+section.lessons .card {
+    border-radius: 5px;
+
+    overflow: hidden;
+}
+
+section.lessons .card img {
+    height: 315px;
+
+    object-fit: cover;
+}
+
+section.lessons .card .card-image::after {
+    content: '';
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+section.lessons .card .card-image a {
+    z-index: 1;
+}
+
+section.library .book{
+    padding: 15px;
+
+    background: white;
+
+    margin: 0px auto 15px auto;
+
+    border-radius: 5px;
+
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+section.library .cover {
+    overflow: hidden;
+}
+
+section.library .cover img {
+    object-fit: contain;
+
+    width: 100%;
+
+    height: 20em;
+}
+
+section.library .cover img.nation-img {
+    height: 12em;
+
+    object-fit: cover;
+}
+
+section.library .button button {
+    width: 100%;
+    height: auto;
+
+    padding: 5px;
+
+    overflow: visible;
+
+    text-transform: none !important;
+}
+
+section.library .content h2 {
+    text-align: center;
+}
+
+section.funny {
+    margin-top: 30px;
+}
+
+section.funny .carousel {
+    width: 100%;
+    max-width: 825px;
+    height: 450px !important;
+
+    margin: auto;
+
+    border-radius: 5px;
+}
+
+section.funny .carousel .carousel-item {
+    overflow: hidden;
+    background-size: contain;
+
+    background-repeat: no-repeat;
+}
+
+section.funny .carousel .carousel-item p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+    text-align: center;
+
+    font-size: 1.5em;
+
+    z-index: 1;
+}
+
+section.funny .carousel .carousel-item:after{
+    content: '';
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: rgba(0,0,0,0.6);
+}
+
+section.funny .carousel .carousel-item span.counter {
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+
+    font-size: 3em;
+
+    border: 2px solid white;
+    border-radius: 50%;
+
+    display: block;
+
+    position: absolute;
+    left: calc(50% - 75px);
+    right: 0;
+    top: 50px;
+
+    text-align: center;
+
+    z-index: 1;
+}
+
+.category-selector,
+.lesson-view {
+    margin-top: 25px;
+}
+
+.category-selector {
+    overflow: hidden;
+
+    position: relative;
+}
+
+.category-selector .card .card-content:after {
+    content: '';
+
+    background-image: url('/img/610850338.png');
+    background-size: cover;
+
+    opacity: 0.10;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.category-selector p {
+    text-align: center;
+    
+    clear: both;
+}
+
+.category-selector p a {
+    margin: 25px;
+}
+
+.collection-gap {
+    margin-top: 25px;
+}
+
+.quiz .buttons {
+    text-align: center;
+}
+
+.quiz .buttons button {
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.quiz .card-content span.card-title {
+    margin-bottom: 0;
+    font-size: 22px;
+}
+
+.quiz .card-content:after {
+    content: none !important;
+}
+
+/* end style */
+
+/* media */
+
+@media(max-width: 1024px) {
+    section.library .button button {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 768px) {
+    section.carousel .carousel .carousel-item .carousel-bg h2 {
+        font-size: 2.5em;
+    }
+    section .content h2{
+        font-size: 2em;
+    }
+    section .content h4 {
+        font-size: 1.5em;
+    }
+    section.game .flag {
+        height: auto;
+    }
+    section.game .flag img {
+        width: 100%;
+        height: auto;
+    }
+    section.game .capital img {
+        width: 100%;
+    }
+    section.game .buttons .btn-flag {
+        font-size: 14px;
+
+        padding-bottom: 20px;
+    }
+    section.lessons .card .card-image a {
+        font-size: 18px;
+    }
+    section.lessons .card img {
+        height: 250px;
+    }
+}
+
+@media(max-width: 425px) {
+    section.game .capital span {
+        font-size: 2em;
+
+        top: 45%;
+    }
+    section.funny .carousel .carousel-item p {
+        font-size: 1.25em;
+
+        margin-top: 0px;
+    }
+    section.funny .carousel .carousel-item span.counter {
+        width: 125px;
+        height: 125px;
+        line-height: 125px;
+
+        font-size: 2.5em;
+
+        left: calc(50% - 62.5px);
+    }
+    .quiz .card .card-content {
+        padding: 12px;
+    }
+    .quiz .card .card-content span.card-title {
+        font-size: 20px;
+    }
+}
+
+
+@media(max-width: 375px) {
+    section.funny .carousel .carousel-item p {
+        font-size: 1.1em;
+    }
+}
+
+@media(max-width: 320px) {
+    section.game .buttons .btn-flag {
+        font-size: 16px;
+    }
+     section.funny .carousel .carousel-item p {
+        font-size: 1em;
+    }
+}
+
+/* end media */
