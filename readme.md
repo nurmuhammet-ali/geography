@@ -45,7 +45,7 @@ $ brew install mysql
 For the windows, it is highly recommended to use GUI applications that install PHP and Mysql behind the scenes.[Mamp](https://www.mamp.info/en/mamp-pro/) or [Xampp](https://www.apachefriends.org/index.html) is a good choice. Just download and install.
 
 ## Linux
-For the Linux users, we can install php and mysql by [Linuxbrew](http://linuxbrew.sh/), which is  is a fork of [Homebrew](http://brew.sh/), the macOS package manager, for Linux.
+For the Linux users, we can install PHP and Mysql by [Linuxbrew](http://linuxbrew.sh/), which is  is a fork of [Homebrew](http://brew.sh/), the macOS package manager, for Linux.
 Install Linuxbrew
 The installation script installs Linuxbrew to  `/home/linuxbrew/.linuxbrew`  if possible and in your home directory at  `~/.linuxbrew`  otherwise.
 
