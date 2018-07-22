@@ -36,11 +36,15 @@ Install Homebrew
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+## Note: Make sure to add path for hombrew
+
 Then open new tab and paste this commands
 ```bash
 $ brew install php
 $ brew install mysql
 ```
+## These will install latest versions of php and Mysql
+
 ## Windows
 For the windows, it is highly recommended to use GUI applications that install PHP and Mysql behind the scenes.[Mamp](https://www.mamp.info/en/mamp-pro/) or [Xampp](https://www.apachefriends.org/index.html) is a good choice. Just download and install.
 
@@ -79,9 +83,10 @@ source e_geography.sql;
 ### Start Application
 To start application, all we need to do is open terminal in current folder and run below command, and go to http://127.0.0.1:8000.
 ```bash
-php artisan serve
+php artisan storage:link # this will link public storage file to storage/public directory
+php artisan serve # this will serve application
 ```
-For windows users, it just enough to double click storage.cmd and geography.cmd, and you are ready to go.
+For windows users, it just enough to double click storage.cmd and geography.cmd, and you are ready to go to http://127.0.0.1:8000 in browser.
 
 ### Please, don't hesitate to open an issue.
 Contact mail: nurmuhammet.ali@mail.com
