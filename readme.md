@@ -8,6 +8,8 @@
 
 [# Start application](#start-application)
 
+[# Credit](#credit)
+
 The geography has played important role in the evolution of people, their ideas, places, and environment. To develop a mental map of our community, province or territory, country and the world so that you can understand the “where” of places and events, we need to have enough knowledge. A student who needs some general info on the specific country, who would prefer an accurate and easily-found source, can confidently use our project to satisfy his waitings.
 
 As often noted, most students have a poor knowledge of geography. This stands in stark contrast to the abundance of rich geographic resources. There is more than enough geographic information available in readily useful, accessible, digital forms; the challenge is to get people to use it. To meet that challenge, the project has to reduce barriers to use by making the professional standards and applications more transparent to teachers and students. Further, it has to provide simple and easy access to content, in a structure that facilitates its adaptation in the schools. The goal of the project is for teachers to have the knowledge, curriculum, and tools to teach the state’s new graduation standards for geography, using online digital resources and applications. This will help students learn geography and apply geographic principles in the study of other disciplines.
@@ -110,6 +112,15 @@ For windows users, it just enough to double click storage.cmd and geography.cmd,
 
 ### Please, don't hesitate to open an issue.
 Contact mail: nurmuhammet@mail.com
+
+# Credit
+
+#### credit
+> Credit goes to
+- [Azat akmyradov](https://github.com/azatakmyradov)
+- Myratnazar Charyyarov
+- [Nurmuhammet Allanov](https://github.com/nurmuhammet-ali)
+
 
 ## License
 
