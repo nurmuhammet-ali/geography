@@ -1,7 +1,12 @@
-
 # E-Geography
 
+[# Installation](#installation)
 
+[# Clone & install packages](#clone)
+
+[# Setting](#setting)
+
+[# Start application](#start-application)
 
 The geography has played important role in the evolution of people, their ideas, places, and environment. To develop a mental map of our community, province or territory, country and the world so that you can understand the “where” of places and events, we need to have enough knowledge. A student who needs some general info on the specific country, who would prefer an accurate and easily-found source, can confidently use our project to satisfy his waitings.
 
@@ -11,7 +16,7 @@ This project will enhance the value of digital resources both at the society and
 
 To build the project we used modern programming languages like PHP and JavaScript. The project is powered by famous PHP framework Laravel and JavaScript’s progressive framework Vue. The project provides categories, such as lessons category, tests category, game category. This can be perfect for any student to any adult man or woman. Each category is special, for example, flag game and tests category is perfect for those want to test his/her knowledge about geography, Map category is useful for teachers and students to quickly get information about any country. There is an additional library where anyone can download ebooks. And to control the site, we build an admin dashboard. In admin dashboard, you can create and edit lessons, upload books, make tests. 
 
-### Few pages: 
+<!-- ### Few pages: 
 This is how home page looks. Nice and simple for any type of people. 
 ![alt text](http://doctna.esy.es/uploads/Untitled.png "Homepage")
 
@@ -26,9 +31,10 @@ Flag game category, simple fun and exciting.
 
 Admin dashboard, a place where you can control site. You can create tests, lessons, upload books and add information about countries.
 ![alt text](http://doctna.esy.es/uploads/adminDashboard.png "Admin Dashboard Page")
-![alt text](http://doctna.esy.es/uploads/adminDashboardForms.png "Admin Dashboard Page")
+![alt text](http://doctna.esy.es/uploads/adminDashboardForms.png "Admin Dashboard Page") -->
 
 # Installation
+#### installation
 As a first step, we need to have installed MySQL and PHP in our machine.
 
 ## For mac
@@ -66,11 +72,24 @@ echo "export PATH='$(brew --prefix)/bin:$(brew --prefix)/sbin'":'"$PATH"' >>~/.p
 ```
 So now we installed Linuxbrew, to install Mysql and PHP paste commands below in terminal
 ```bash
-$ brew install php 
+$ brew install php@7.0 
 $ brew install mysql
 ```
 
-## Setting
+# Clone & install packages
+#### clone
+> First clone the repo, and install the packages
+```bash
+git clone https://github.com/nurmuhammet-ali/geography.git
+cd geography
+cp .env.example .env
+composer install
+php artisan key:generate
+```
+
+
+# Setting
+#### setting
 After we installed Mysql and PHP, we need to import our mysql tables
 To do this we have  create database e_geographyl and import e_geography.sql to our e_geography database.  See below for install instructions.
 
@@ -80,7 +99,8 @@ create database e_geography;
 use e_geography;
 source e_geography.sql;
 ```
-### Start Application
+# Start Application
+#### start-application
 To start application, all we need to do is open terminal in current folder and run below command, and go to http://127.0.0.1:8000.
 ```bash
 php artisan storage:link # this will link public storage file to storage/public directory
