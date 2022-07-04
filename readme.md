@@ -118,7 +118,7 @@ Contact mail: nurmuhammet@mail.com
 #### credit
 > Credit goes to
 - [Azat akmyradov](https://github.com/azatakmyradov)
-- Myratnazar Charyyarov
+- [Myratnazar Charyyarov](https://github.com/mcharyyev)
 - [Nurmuhammet Allanov](https://github.com/nurmuhammet-ali)
 
 
