@@ -111,13 +111,13 @@ php artisan serve # this will serve application
 For windows users, it just enough to double click storage.cmd and geography.cmd, and you are ready to go to http://127.0.0.1:8000 in browser.
 
 ### Please, don't hesitate to open an issue.
-Contact mail: nurmuhammet@mail.com
+Contact mail: me@nurmuhammet.com
 
 # Credit
 
 #### credit
 > Credit goes to
-- [Azat akmyradov](https://github.com/azatakmyradov)
+- [Azat Akmyradov](https://github.com/azatakmyradov)
 - [Myratnazar Charyyarov](https://github.com/mcharyyev)
 - [Nurmuhammet Allanov](https://github.com/nurmuhammet-ali)
 
